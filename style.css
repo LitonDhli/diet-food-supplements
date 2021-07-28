@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color:aliceblue;
+}
+h1,h2,h3,h5,h6{
+    color: #11999e;;
+}
+.menu{
+    background-color: #11999e;
+    display: flex;
+    justify-content: flex-end;
+}
+.menu a{
+    text-decoration: none;
+    padding: 20px;
+    color:white;
+    font-weight: bold;
+}
+.menu a:hover{
+    background-color: tomato;
+    transition: 2s;
+
+}
+.flexseble-container{
+
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.half-width h1{
+    font-size: 40px;
+}
+.diet{
+    color: orangered;
+}
+.half-width{
+    width: 40%;
+    margin-left: 20px;
+    padding: 5%;
+    
+}
+.half-width img{
+    width: 70%;
+    
+    
+
+
+}
+
+.about1{
+    width: 40%;
+    margin-top:100px;
+    margin-left: 100px;
+   
+
+    
+}
+.about{
+    width: 40%;
+    padding:5%;
+    margin-top: 50px;
+}
+
+.about1 img{
+    width: 50%;
+    
+
+
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange,red);
+    padding: 10px 40px;
+    width: 100px;
+    border-radius: 50px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+
+
+}
+ .half-width a:hover{
+    color: black;
+    transition: 2s;
+}
+.about a:hover{
+    color:black ;
+    transition: 2s;
+}
+.top-Selling{
+    margin-bottom: 30px;
+    font-size: 16px;
+    color:#666;
+    margin-top: 15px;
+    
+}
+.about-us{
+    margin-bottom: 30px;
+    font-size: 16px;
+    color:#666;
+    margin-top: 15px;
+    
+}
+.about-section{
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+    margin-bottom: 40px;
+    
+}
+.recipi-title h1{
+    text-align: center;
+    color:#11999e;
+    margin-bottom: 20px;
+}
+.recipi-title{
+    
+    
+}
+.recipi-title p{
+    width: 600px;
+    margin: auto;
+    font-size: 16px;
+    color:   #666;
+    margin-bottom: 10px;
+}
+.recipi-img{
+    width: 40%;
+    margin-right: 2%;
+    margin-left: 3%;
+    box-shadow: 10px 10px  40px gray;
+    background-color: white;
+    margin-bottom: 60px;
+    border-radius: 10px;
+    padding: 10px;
+    overflow: hidden;
+    margin-top: 60px;
+    
+    
+}
+
+.recipi-img img{
+    width: 100%;
+    margin-bottom: 30px;
+
+   
+}
+.recipi-area{
+    display: flex;
+}
+
+.recipi-img p{
+    color: #666;
+    margin-bottom: 20px;
+    
+    
+}
+.recipi-img h2{
+    margin-bottom: 20px;
+}
+.footer{
+    background-color: black;
+    padding: 60px;
+    margin-bottom: 40px;
+}
+.footer h1 {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.footer p{
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
+.food-network{
+    color: orangered;
+}
